@@ -1,12 +1,12 @@
 # Digital Twin for online information consumption
 
-A local-first personal news intelligence dashboard. The digital twin ingests RSS/Atom and arXiv feeds, normalizes them into SQLite, scores each story against a transparent personal profile, deduplicates near-identical headlines, and builds a calm daily briefing.
+An attempt to reduce noise in daily information diet. A local-first personal news intelligence dashboard that ingests RSS/Atom feeds, normalizes them into SQLite, scores each story against a transparent personal profile, deduplicates near-identical headlines, and builds a daily briefing.
 
 ## Features
 
 - Zero third-party Python dependencies (Python 3.11+ recommended)
 - Local SQLite database
-- RSS + Atom + arXiv ingestion
+- RSS + Atom ingestion
 - Transparent weighted ranking
 - Topic/entity/geography scoring
 - Basic headline deduplication
@@ -115,7 +115,7 @@ The default source list contains public RSS/Atom endpoints, arXiv API queries, a
 ## Architecture
 
 ```text
-RSS / Atom / arXiv
+RSS / Atom
        │
        ▼
    ingestion
