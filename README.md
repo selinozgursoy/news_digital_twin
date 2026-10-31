@@ -1,6 +1,6 @@
-# TwinTimes
+# Digital Twin for online information consumption
 
-A local-first personal news intelligence dashboard. TwinTimes ingests RSS/Atom and arXiv feeds, normalizes them into SQLite, scores each story against a transparent personal profile, deduplicates near-identical headlines, and builds a calm daily briefing.
+A local-first personal news intelligence dashboard. The digital twin ingests RSS/Atom and arXiv feeds, normalizes them into SQLite, scores each story against a transparent personal profile, deduplicates near-identical headlines, and builds a calm daily briefing.
 
 ## Features
 
